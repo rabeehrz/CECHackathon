@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/listbg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewPatient"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/baseline_person_outline_black_18dp"
+        app:civ_border_color="@color/pink"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:padding="5dip"
+            android:textSize="34sp"
+            android:fontFamily="@font/semibold"
+            android:textColor="@color/pink"/>
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:fontFamily="@font/regular"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/nurse"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/regular"
+                android:padding="5dp"
+                android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/diseaseType"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="horizontal" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageViewPatient"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/name"-->
+       <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/age"-->
+      <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/nurse"-->
+       <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/diseaseType"-->
+       <!--/>-->
+<!--</LinearLayout>-->
